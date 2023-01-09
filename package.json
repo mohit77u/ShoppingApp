@@ -1,0 +1,36 @@
+{
+  "name": "accessories",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.17.2",
+    "@react-navigation/native": "^6.1.1",
+    "@react-navigation/native-stack": "^6.9.7",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "axios": "^1.2.2",
+    "expo": "~47.0.9",
+    "expo-font": "~11.0.1",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-date-picker": "^4.2.6",
+    "react-native-modern-datepicker": "^1.0.0-beta.91",
+    "react-native-permissions": "^3.6.1",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "^0.18.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
