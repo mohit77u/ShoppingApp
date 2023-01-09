@@ -14,7 +14,7 @@ export default function ScreenRoutes() {
   return (
     <NavigationContainer >
       <Stack.Navigator>
-        <Stack.Screen name="Welcome" component={Welcome} options={{title: 'Food4U', headerShown: false}}  />
+        <Stack.Screen name="Welcome" component={Welcome} options={{title: 'Accessories World', headerShown: false}}  />
         {/* <Stack.Screen name="Destinations" component={Destination} options={{title: 'Destinations'}}  />
         <Stack.Screen name="Search" component={SearchDestination} options={{title: 'Search Destinations'}} />
         <Stack.Screen name="Single" component={SingleDestination} options={({ route }) => ({ title: route.params.title})} />
